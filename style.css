@@ -1,0 +1,435 @@
+/* style de toute la page html */
+* {
+  padding: 0px;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+}
+/* style de body */
+body {
+  justify-content: center;
+  align-items: center;
+}
+/* style de header */
+header {
+  width: 100%;
+  font-size: 35pxs;
+  display: flex;
+  justify-content:space-around;
+  padding: 10px 25px;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #383636;
+  height: 10vh;
+  position: fixed;
+  z-index: 1000;
+}
+/* style de logo inclus dans header */
+.logo h1 {
+  margin: 2px;
+  text-transform: capitalize;
+  color: rgba(10, 10, 11, 0.87);
+}
+/* style de span de logo */
+.logoname {
+  color: rgb(50, 158, 99);
+}
+/* style de navebar */
+.navbare {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0px 20px;
+  color: rgba(5, 5, 6, 0.863);
+  transition: 0.4s;
+}
+/* navbare hover */
+.navbare:hover {
+  color: rgb(50, 158, 99);
+}
+/* style de sign-up inclus dans header */
+header .singup {
+  background-color: #efefef;
+  border-radius: 20px;
+  padding: 10px 6px;
+  transition: all 0.3s ease-in-out;
+}
+/* hover de sign-up */
+header .singup:hover {
+  transform: scale(1.125);
+}
+/* style de tout élements d'article 1 */
+.art1 {
+  background-image: url("img/img1.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+}
+/* style de toutes élements de div */
+.art1 .intraduction {
+  padding-top: 15%;
+}
+/* style de h1 inclus dans div */
+.art1 .intraduction .titel h1 {
+  font-size: 50px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* stuyle de paragraph inclus dans div */
+.art1 .intraduction .titel p {
+  text-align: center;
+  padding: 10px 22%;
+  width: 55%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  line-height: 25px;
+  color: #efefef;
+}
+/* style de link button learn more */
+.art1 .intraduction .more {
+  margin-top: 26px;
+}
+/* style de link de button */
+.art1 .intraduction .more a {
+  text-decoration: none;
+  background-color: rgb(50, 158, 99);
+  border-radius: 10px;
+  padding: 20px 50px;
+  text-transform: capitalize;
+  font-size: large;
+  color: black;
+  transition: all 0.6s ease-in-out;
+}
+/* hover de link de button */
+.intraduction .more a:hover {
+  color: #efefef;
+}
+/* style de de div de toutes les article title h1 et paragraph */
+.discover {
+  text-align: center;
+  margin-top: 40px;
+}
+/*style de h1 de div (discover)  */
+.discover h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* style de paragraphe de div (discover) */
+.discover p {
+  text-align: center;
+  padding: 10px 20%;
+  width: 60%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 25px;
+  color: #767575;
+}
+/* style de div(about) qui inclus image et quatre bordure */
+.about {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+/* style d'image de div (about) */
+.iimg img {
+  height: 65vh;
+  border-radius: 20px;
+  margin-top: 44px;
+  box-shadow: 0px 10px 12px rgb(7, 7, 7);
+}
+/* style de bordure de div(about) */
+.about .contact .talk {
+  background: rgb(244, 242, 242);
+  backdrop-filter: blur(5px);
+  margin: 20px 0;
+  width: 220px;
+  border-radius: 20px;
+  height: 200px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+/* style de paragraph inclus dans bordure de div (about) */
+.about .contact .talk p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #544f4f;
+}
+/* style de icone ,h1 et paragraph de div(about */
+.about .contact .talk i,
+h1,
+p {
+  padding: 10px;
+}
+/* style de h1 de bordure */
+.about .contact .talk h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* style de art3 de div (distination) pour text qui inclus dans images */
+.destination {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+/* style de trois images  */
+.text1,
+.text2,
+.text3 {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  margin-right: 17px;
+  padding: 20px;
+  height: 200px;
+  width: 60%;
+  text-align: left;
+}
+/* background image de de div text1 inclus div (destination)  */
+.text1 {
+  background-image: url("img/travel22.jpeg");
+}
+/* background image de de div text2 inclus div (destination)  */
+.text2 {
+  background-image: url("img/montain.avif.jpeg");
+}
+/* background image de de div text3 inclus div (destination)  */
+.text3 {
+  background-image: url("img/city.jpeg");
+}
+/* style de div (container1) title h1 inclus dans trois background images précedent */
+.container1 h1 {
+  color: #19bb44;
+  font-size: 28px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* style de div (container1)paragraph inclus dans trois background images précedent */
+.container1 p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* style d'art4 de div works qui contient toutes élements */
+.works {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 30px;
+  font-size: large;
+  text-align: left;
+  height: auto;
+}
+/* style de background des trois textes  */
+.itap {
+  background-color: #f2f2f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+/* style de paragraphe des trois textes */
+.itap p {
+  color: #767575;
+}
+/* style icon fléche entre chaque step */
+.iconwork {
+  margin: 70px 10px 50px 20px;
+  width: 10%;
+}
+/* style de premier paragraph d'art5 */
+#p3 {
+  color: #249439;
+  font-weight: bold;
+}
+/* art5 emplacement des quatre bordure */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* style de quatre bordure */
+.team-member {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+/* style de deux bordures  */
+.teams {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 30px;
+}
+/* emplacement de texte inclus dans bordures  */
+.itemss {
+  text-align: left;
+  margin: 5% 12%;
+}
+/* emplacement et style de quatre images inclus dans bordures */
+.team-member img {
+  width: 28%;
+  height: 90%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  box-shadow: 0px 10px 12px rgb(7, 7, 7);
+}
+/* style de h3 de toutes 4 bordures */
+.team-member h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+/* style de petit paragraph qui donne role de chaque team */
+.role {
+  font-weight: bold;
+  color: rgb(50, 158, 99);
+  margin-bottom: 10px;
+}
+/* style de paragraph inclus dans bordures */
+.team-member p {
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* style d'icon linkdin et twitter inclus dans bordures */
+.team-member a i {
+  margin: 20px 10px;
+}
+/* emplacement de  de div booking-article */
+.booking-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+/* style de h1 & paragraph de div booking-info */
+.booking-info {
+  max-width: 60%;
+}
+/* style h1 inclus dans div booking-info */
+.booking-info h1 {
+  font-size: 32px;
+  color: #249439; 
+  margin-bottom: 20px;
+}
+/* style de p dans div booking-info */
+.booking-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+/* style  de div offer-box  bordure */
+.offer-box {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 30%;
+}
+/* style h2 de div offer-box */
+.offer-box h2 {
+  font-size: 22px;
+  color: #249439; 
+  margin-bottom: 15px;
+}
+/* style de p de div offer-box */
+.offer-box p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+/* emplacement d'offer-column */
+.offer-form {
+  display: flex;
+  flex-direction: column;
+}
+/* style d'input de div offer-form */
+.offer-form input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+/* style button de div (offer-form) */
+.offer-form button {
+  background-color: #249439; /* Red color */
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* hover button div (offer-form) */
+.offer-form button:hover {
+  background-color: #19bb44; /* Darker red */
+}
+/* style et emplacement de footer */
+footer {
+  font-size: 35pxs;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  padding: 10px 25px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-bottom: 1px solid #383636;
+  height: 10vh;
+}
+/* style logo-foot (travel) */
+.logo-foot {
+  margin: 2px;
+  text-transform: capitalize;
+  color: rgba(10, 10, 11, 0.87);
+  font-size: 10px;
+}
+/* style logoname (agency) */
+.logoname-foot {
+  color: rgb(50, 158, 99);
+}
+/* style navebar de footer */
+.navbare-foot {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0px 20px;
+  color: rgba(56, 56, 58, 0.863);
+  font-size: 12px;
+  transition: 0.4s;
+}
+/* hover de navbarefooter */
+.navbare-foot:hover {
+  color: rgb(50, 158, 99);
+}
+/* style des icone inclus dans footer */
+.icone a {
+  padding-right: 20px;
+  transition: 0.3s;
+}
+/* hover des icones */
+.icone a i:hover {
+  color: green;
+}
+/* style navebar sous footer */
+.end-nav {
+  text-align: center;
+  margin: 40px;
+  color: rgba(56, 56, 58, 0.863);
+  font-size: 12px;
+  transition: 0.3s;
+}
+/* hover de nav sous footer */
+.end-nav:hover {
+  color: rgb(50, 158, 99);
+}
